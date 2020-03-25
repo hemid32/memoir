@@ -9,13 +9,15 @@ def all_post(request):
         'all_post' : all_postes ,
 
     }
-
-    return(request , 'all_p' , contax)
+    #print('hhhh')
+    return render(request , 'hp.html',contax)
 
 
 
 
 def un_post(request,id):
+    #import pdb
+    #pdb.set_trace()
 
     all_postes_ = info_tp.objects.get(id=id)
     contax = {
@@ -23,5 +25,5 @@ def un_post(request,id):
 
     }
 
-    return (request, 'un_p', contax)
+    return render(request, 'un_p.html', contax)
 

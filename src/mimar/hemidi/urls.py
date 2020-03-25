@@ -6,5 +6,5 @@ from . import   views
 app_name = 'hemidi'
 
 urlpatterns = [
-    url('home/', views.all_post , name = 'all_post'),
-    url(r'^<int:id>/', views.un_post , name='un_post')]
+    url(r'^/$', views.all_post , name = 'all_post'),
+    url(r'^/(?P<id>\d+)$', views.un_post , name='un_post')]

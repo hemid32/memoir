@@ -18,6 +18,7 @@ class info_tp(models.Model):
     title_tp = models.CharField(max_length=100)
     description_tp = models.CharField(max_length=500)
     fiche_tp = models.FileField(upload_to='uploads/')
+    img = models.ImageField(upload_to='info_tp_img/')
 
     def __str__(self):
 
