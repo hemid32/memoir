@@ -19,8 +19,9 @@ urlpatterns = [
 
     url(r'^/(?P<id>\d+)$', un_post , name='un_post'),
     url(r'form', pag_post , name='un_post_form'),
-    url('/$', HomePageView.as_view(), name='home'),
-
+    url(r'^/$', views.all_post, name='home'),
+    url(r'^/login/$',  views.get_name, name='login'),
+    url(r'^/signup/$', views.signup, name='signup'),
 
 
 ]

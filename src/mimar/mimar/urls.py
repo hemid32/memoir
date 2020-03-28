@@ -21,4 +21,8 @@ from django.conf.urls.static import  static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home', include('hemidi.urls' , namespace='home')) ,
+    path('home_page', include('accounts.urls' , namespace='home')) ,
+
+
+
 ]+static(settings.MEDIA_URL,document_root = settings.MEDIA_ROOT)
