@@ -1,9 +1,13 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html>
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="{% static 'w3.css' %}">
+<link rel="stylesheet" href="{% static 'hemidi.css' %}">
+
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -22,52 +26,25 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
-          <img src="/w3images/avatar_hat.jpg" style="width:100%" alt="Avatar">
+          <img src="{{ all_post.img.url }}" alt="Sandwich" style="width:100%">
           <div class="w3-display-bottomleft w3-container w3-text-black">
             <h2>Jane Doe</h2>
           </div>
         </div>
         <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Designer</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>London, UK</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>ex@mail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1224435534</p>
-          <hr>
 
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>Adobe Photoshop</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-          </div>
-          <p>Photography</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-              <div class="w3-center w3-text-white">80%</div>
-            </div>
-          </div>
-          <p>Illustrator</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-          </div>
-          <p>Media</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
-          </div>
+
+          <h1> {{ all_post.title_tp }}   </h1>
+            <p> {{ all_post.description_tp }}   </p>
+            <h1> {{ all_post.nome_prof }}   </h1>
+            <h1> {{ all_post.imail_prof}}   </h1>
+            <h1> {{ all_post.nome_modul }}   </h1>
+
+
+
           <br>
 
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-          </div>
-          <p>Spanish</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
-          </div>
-          <p>German</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
-          </div>
+
           <br>
         </div>
       </div><br>
@@ -77,48 +54,245 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
     <!-- Right Column -->
     <div class="w3-twothird">
+      <h1 class="w3-panel w3-padding-16"  id="demo"></h1>
+    <button type="button">dawonlod raport TP</button>
 
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
-          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
-        </div>
-      </div>
+    <div id="circuit"  >
 
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
-          <p>Web Development! All I need to know in one place</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>London Business School</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
-          <p>Master Degree</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>School of Coding</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-          <p>Bachelor Degree</p><br>
-        </div>
-      </div>
+      <!-- resestance  variable
+
+
+      <svg height="100" width="100">
+        <text id="resestance" x="30" y="20">00</text>
+        <rect x = "20" y = "40"  width="60" height="20" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)"  onclick = "myfnc()" />
+        <line x1="0" y1="50" x2="100" y2="50" style="stroke:rgb(0,0,255);stroke-width:2" />
+      </svg>
+
+      resestance 10 Ω -->
+      <!-- pour  circuite  RC  -->
+      <svg  id = 'svg_srcuit_rc' height="300" width="300">
+                    <!-- resistance -->
+                    <text  id="resistance"  x="30" y="132" >10</text>
+                    <line id = 'ln8' x1="0" y1="150" x2="100" y2="150" style="stroke:rgb(0,0,255);stroke-width:2" />
+                    <rect x = "20" y = "140"  width="60" height="20" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" onclick="agm_ca()" />
+
+                    <path  id = 'agm_r' d="M 100,125 80,135 80,115 z" onclick="agm('r')"  />
+                    <path   id = 'sub_r'  d="M 0,125 20,135 20,115 z" onclick="sub('r')"   />
+
+
+
+                    <!-- line -->
+                    <line  id = 'ln1'  x1="100" y1="150" x2="150" y2="150" style="stroke:rgb(0,0,255);stroke-width:2" />
+                    <line id = 'ln2'  x1="250" y1="250" x2="0" y2="250" style="stroke:rgb(0,0,255);stroke-width:2" />
+                    <line id = 'ln3' x1="0" y1="250" x2="0" y2="150" style="stroke:rgb(0,0,255);stroke-width:2" />
+                  <!-- capacité -->
+                    <line id = 'ln4'  x1="250" y1="150" x2="250" y2="190" style="stroke:rgb(0,0,255);stroke-width:2" />
+                    <line id = 'ln5' x1="250" y1="205" x2="250" y2="250" style="stroke:rgb(0,0,255);stroke-width:2" />
+                    <rect x = "240" y = "190"  width="20" height="5" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+                    <rect x = "240" y = "205"  width="20" height="5" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+                   <text id = 'capa' x="260" y="205"  >10</text>
+                    <path  id = 'agm_c'  d="M 275,170 285,190 265,190 z"  onclick="agm('c')" />
+                    <path  id = 'sub_c'  d="M 275,230 285,210 265,210 z"  onclick="sub('c')" />
+                    <script>
+                    function agm(typ) {
+                    // exemple valeur c1 c2 c3 r1 r2
+                    // c1 < c2 < c3 et r1 < r2 et c1+c2 != c3
+                    var c1 = 10 ;
+                    var c2 = 50 ;
+                    var c3 = 70 ;
+                    var r1 = 10 ;
+                    var r2 = 50 ;
+                    if (typ == 'c'){
+
+                                    var x = document.getElementById("capa").textContent;
+                                   if (x == c1) {
+                                          document.getElementById("capa").innerHTML = c2 ; // change valeur
+                                          }
+                                   if (x == c2) {
+                                          document.getElementById("capa").innerHTML = c3 ; // change valeur
+                                          }
+                                   if (x == c3  ) {
+                                          document.getElementById("capa").innerHTML = c2+c1 ; // change valeur
+                                          }
+                                   if (x == c2+c1) {
+                                          document.getElementById("capa").innerHTML = c1+c3 ; // change valeur
+                                          }
+                                   if (x == c1+c3) {
+                                          document.getElementById("capa").innerHTML = c2+c3 ; // change valeur
+                                          }
+                                   if (x == c2+c3) {
+                                          document.getElementById("capa").innerHTML = c2+c3+c1 ; // change valeur
+                                          }
+                                         }
+                    if (typ == 'r'){
+
+                                    var x = document.getElementById("resistance").textContent;
+                                    var num = Number((r1*r2)/(r1+r2))
+
+                                   if ((r1*r2)/(r1+r2) < r1 && x == num.toFixed(2) ){
+                                    document.getElementById("resistance").innerHTML = r1
+                                   }
+                                   if (x == r1) {
+                                          document.getElementById("resistance").innerHTML = r2 ; // change valeur
+                                          }
+                                   if (x == r2 && (r1*r2)/(r1+r2) > r2 ) {
+                                          var num = Number((r1*r2)/(r1+r2))
+                                          document.getElementById("resistance").innerHTML = num.toFixed(2) // change valeur
+                                          }
+                                         }
+
+                                         }
+                    function sub(typ) {
+                    var c1 = 10 ;
+                    var c2 = 50 ;
+                    var c3 = 70 ;
+                    var r1 = 10 ;
+                    var r2 = 50 ;
+                    if(typ == 'c'){
+
+                                    var x = document.getElementById("capa").textContent;
+                                    if (x == c2+c3+c1) {
+                                          document.getElementById("capa").innerHTML = c3+c2 ; // change valeur
+                                          }
+                                   if (x == c2+c3) {
+                                          document.getElementById("capa").innerHTML = c1+c3 ; // change valeur
+                                          }
+                                   if (x == c1+c3) {
+                                          document.getElementById("capa").innerHTML = c3 ; // change valeur
+                                          }
+                                   if (x == c3  ) {
+                                          document.getElementById("capa").innerHTML = c2 ; // change valeur
+                                          }
+                                   if (x == c2) {
+                                          document.getElementById("capa").innerHTML = c1 ; // change valeur
+                                          }}
+                    if(typ == 'r'){
+                                    var x = document.getElementById("resistance").textContent;
+                                    if (x == r1 && (r1*r2)/(r1+r2) < r1 ){
+                                          var num = Number((r1*r2)/(r1+r2))
+                                          document.getElementById("resistance").innerHTML =  num.toFixed(2) ; // change valeur
+                                          }
+                                   if (x == r2) {
+                                          document.getElementById("resistance").innerHTML = r1 ; // change valeur
+                                          }
+                                   if (x == r2 && (r1*r2)/(r1+r2) > r1 ){
+                                          var num = Number((r1*r2)/(r1+r2))
+                                          document.getElementById("resistance").innerHTML =  num.toFixed(2) ; // change valeur
+                                          }
+                                    if ((r1*r2)/(r1+r2) > r2  && x == (r1*r2)/(r1+r2) ){
+                                          document.getElementById("resistance").innerHTML = r2 ; // change valeur
+                                          }
+
+                                   }
+
+                                         }
+                    </script>
+
+                  <!-- switsh -->
+                    <line id = 'ln6' x1="150" y1="150" x2="185" y2="150" style="stroke:rgb(0,0,255);stroke-width:2"  onclick = "myfnc_switch()" />
+                    <line id = 'ln7'  x1="215" y1="150" x2="250" y2="150" style="stroke:rgb(0,0,255);stroke-width:2" onclick = "myfnc_switch()" />
+                    <circle cx="185" cy="150" r="3" stroke="black" stroke-width="3" fill="red"    onclick = "myfnc_switch()" />
+                    <circle cx="215" cy="150" r="3" stroke="black" stroke-width="3" fill="red"    onclick = "myfnc_switch()"  />
+                    <line id = 'switch1' x1="185" y1="150" x2="211" y2="125" style="stroke:rgb(0,0,255);stroke-width:2"  onclick = "myfnc_switch()"  />
+                    <circle id = 'switch_c' cx="215" cy="123" r="3" stroke="black" stroke-width="3" fill="red"    onclick = "myfnc_switch()" />
+</svg>
+
+
+
+      <script>
+      function myfnc(nombre) {
+
+        var x = document.getElementById("resistance").textContent;
+
+        var tenure = prompt("Please enter valeur resestance Ω ", x);
+
+        if (tenure != null) {
+          alert("You have entered " + tenure  );
+          document.getElementById("resistance").innerHTML = tenure + 'Ω' ; // change valeur
+          } }
+
+        function myfnc_switch(nombre){
+        //sdocument.write(Date());
+
+
+        //document.getElementById("#switch").y2 = "50";
+        //document.getElementById("#switch_c").cy = "50";
+         //$('#switch').attr('y2', "50");
+         var x1 = document.getElementById("switch1").getAttribute("y2")
+         if (x1 == 125){
+         document.getElementById("switch1").setAttribute("y2", "150");
+         document.getElementById("switch_c").setAttribute("cy", "150");
+         var stl_red ="stroke:rgb(255,0,0);stroke-width:2"
+         document.getElementById("ln1").setAttribute("style",stl_red);
+         document.getElementById("ln2").setAttribute("style",stl_red);
+         document.getElementById("ln3").setAttribute("style", stl_red);
+         document.getElementById("ln4").setAttribute("style",stl_red);
+         document.getElementById("ln5").setAttribute("style",stl_red);
+         document.getElementById("ln6").setAttribute("style",stl_red);
+         document.getElementById("ln7").setAttribute("style",stl_red);
+         document.getElementById("ln8").setAttribute("style",stl_red);
+         document.getElementById("switch1").setAttribute("style",stl_red);
+                                                                         }
+        else {
+          document.getElementById("switch1").setAttribute("y2", "125");
+          document.getElementById("switch_c").setAttribute("cy", "123");
+          var stl_red ="stroke:rgb(0,0,255);stroke-width:2"
+          document.getElementById("ln1").setAttribute("style",stl_red);
+          document.getElementById("ln2").setAttribute("style",stl_red);
+          document.getElementById("ln3").setAttribute("style", stl_red);
+          document.getElementById("ln4").setAttribute("style",stl_red);
+          document.getElementById("ln5").setAttribute("style",stl_red);
+          document.getElementById("ln6").setAttribute("style",stl_red);
+          document.getElementById("ln7").setAttribute("style",stl_red);
+          document.getElementById("ln8").setAttribute("style",stl_red);
+          document.getElementById("switch1").setAttribute("style",stl_red);
+
+        } }
+
+</script>
+
+
+      <!-- Display the countdown timer in an element -->
+
+  <script>
+  // Set the date we're counting down to
+  //var today = new Date();
+  var countDownDate1 = new Date().getTime();
+  // Date("Jan 5, 2021 15:37:25")
+  var countDownDate = countDownDate1 + 2*60*60*1000;
+
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+
+    // Get today's date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display the result in the element with id="demo"
+    document.getElementById("demo").innerHTML = + hours + "h "
+    + minutes + "m " + seconds + "s ";
+
+    // If the count down is finished, write some text
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+  }, 1000);
+  </script>
+    <button id = 'button_mesure' type="button">mesur</button>
+        <button id = 'button_mesure2' type="button">validation</button>
+
+
+    </div>
+
 
     <!-- End Right Column -->
     </div>
@@ -126,18 +300,20 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   <!-- End Grid -->
   </div>
 
+
+
   <!-- End Page Container -->
 </div>
 
 <footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p>
+  <p>hemidi benameur </p>
   <i class="fa fa-facebook-official w3-hover-opacity"></i>
   <i class="fa fa-instagram w3-hover-opacity"></i>
   <i class="fa fa-snapchat w3-hover-opacity"></i>
   <i class="fa fa-pinterest-p w3-hover-opacity"></i>
   <i class="fa fa-twitter w3-hover-opacity"></i>
   <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
 </footer>
 
 </body>

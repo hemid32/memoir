@@ -4,13 +4,8 @@
     <list default="true" id="ad6b4081-00f8-4819-884d-d3d110136b63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mimar/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/mimar/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mimar/hemidi/forme.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mimar/hemidi/forme.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mimar/hemidi/templates/hp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/mimar/hemidi/templates/hp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mimar/hemidi/templates/un_p.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/mimar/hemidi/templates/un_p.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mimar/hemidi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mimar/hemidi/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mimar/hemidi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mimar/hemidi/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mimar/mimar/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mimar/mimar/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mimar/mimar/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mimar/mimar/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,15 +36,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/mimar/hemidi/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OpenCV_3_License_Plate_Recognition_Python-master" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/mimar/static" />
+      <recent name="$PROJECT_DIR$/src/mimar/accounts/templates/registration" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/mimar/static" />
       <recent name="$PROJECT_DIR$/src/mimar/hemidi/templates" />
       <recent name="$PROJECT_DIR$/src/mimar/accounts/templates" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/mimar/accounts/templates/registration" />
     </key>
   </component>
   <component name="RunManager" selected="Python.urls (1)">
@@ -182,26 +179,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1343" height="135" key="GridCell.Tab.0.bottom" timestamp="1585406547063">
+    <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl" timestamp="1588175114778">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1343" height="135" key="GridCell.Tab.0.bottom/0.31.1366.737@0.31.1366.737" timestamp="1585406547063" />
-    <state width="1343" height="135" key="GridCell.Tab.0.center" timestamp="1585406547061">
+    <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl/0.31.1366.737@0.31.1366.737" timestamp="1588175114778" />
+    <state width="1343" height="135" key="GridCell.Tab.0.bottom" timestamp="1585438363352">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1343" height="135" key="GridCell.Tab.0.center/0.31.1366.737@0.31.1366.737" timestamp="1585406547061" />
-    <state width="1343" height="135" key="GridCell.Tab.0.left" timestamp="1585406547060">
+    <state width="1343" height="135" key="GridCell.Tab.0.bottom/0.31.1366.737@0.31.1366.737" timestamp="1585438363352" />
+    <state width="1343" height="135" key="GridCell.Tab.0.center" timestamp="1585438363333">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1343" height="135" key="GridCell.Tab.0.left/0.31.1366.737@0.31.1366.737" timestamp="1585406547060" />
-    <state width="1343" height="135" key="GridCell.Tab.0.right" timestamp="1585406547062">
+    <state width="1343" height="135" key="GridCell.Tab.0.center/0.31.1366.737@0.31.1366.737" timestamp="1585438363333" />
+    <state width="1343" height="135" key="GridCell.Tab.0.left" timestamp="1585438363320">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1343" height="135" key="GridCell.Tab.0.right/0.31.1366.737@0.31.1366.737" timestamp="1585406547062" />
-    <state x="415" y="155" key="com.intellij.ide.util.TipDialog" timestamp="1585405246569">
+    <state width="1343" height="135" key="GridCell.Tab.0.left/0.31.1366.737@0.31.1366.737" timestamp="1585438363320" />
+    <state width="1343" height="135" key="GridCell.Tab.0.right" timestamp="1585438363341">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state x="415" y="155" key="com.intellij.ide.util.TipDialog/0.31.1366.737@0.31.1366.737" timestamp="1585405246569" />
+    <state width="1343" height="135" key="GridCell.Tab.0.right/0.31.1366.737@0.31.1366.737" timestamp="1585438363341" />
+    <state x="415" y="155" key="com.intellij.ide.util.TipDialog" timestamp="1588175055255">
+      <screen x="0" y="31" width="1366" height="737" />
+    </state>
+    <state x="415" y="155" key="com.intellij.ide.util.TipDialog/0.31.1366.737@0.31.1366.737" timestamp="1588175055255" />
     <state x="0" y="31" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585425079574">
       <screen x="0" y="31" width="1366" height="737" />
     </state>

@@ -66,7 +66,7 @@ def all_post(request):
         #print('hhhh')
         return render(request , 'hp.html',contax)
     else :
-        return  redirect('/home/login/')
+        return  redirect('/home_page/')
 
 
 
@@ -170,7 +170,7 @@ def get_name(request):
                 #pass
 
             #print(password)
-            return HttpResponseRedirect('/thanks/')
+            return HttpResponseRedirect('/home_page/')
 
     # if a GET (or any other method) we'll create a blank form
     else:
@@ -196,4 +196,4 @@ def signup(request):
 def logout_view(request):
     logout(request)
     # Redirect to a success page.
-    redirect('/home/login/')
+    redirect('/home_page/')
