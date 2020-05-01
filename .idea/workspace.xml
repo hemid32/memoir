@@ -4,8 +4,8 @@
     <list default="true" id="ad6b4081-00f8-4819-884d-d3d110136b63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mimar/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/mimar/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mimar/hemidi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mimar/hemidi/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mimar/hemidi/templates/un_p.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/mimar/hemidi/templates/un_p.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mimar/hemidi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mimar/hemidi/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,17 +36,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OpenCV_3_License_Plate_Recognition_Python-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/mimar/hemidi/templates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/mimar/hemidi/templates" />
+      <recent name="$PROJECT_DIR$/src/mimar/static" />
+      <recent name="$PROJECT_DIR$/src/mimar/accounts/templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/mimar/static" />
       <recent name="$PROJECT_DIR$/src/mimar/accounts/templates/registration" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/mimar/static" />
-      <recent name="$PROJECT_DIR$/src/mimar/hemidi/templates" />
-      <recent name="$PROJECT_DIR$/src/mimar/accounts/templates" />
     </key>
   </component>
   <component name="RunManager" selected="Python.urls (1)">
@@ -177,6 +177,9 @@
       <updated>1585092538727</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl" timestamp="1588175114778">

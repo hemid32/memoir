@@ -39,6 +39,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             <h1> {{ all_post.nome_prof }}   </h1>
             <h1> {{ all_post.imail_prof}}   </h1>
             <h1> {{ all_post.nome_modul }}   </h1>
+            <h1 id="type_cr" >{{all_post.type_shm}}</h1>
 
 
 
@@ -286,12 +287,42 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       document.getElementById("demo").innerHTML = "EXPIRED";
     }
   }, 1000);
+
   </script>
-    <button id = 'button_mesure' type="button">mesur</button>
-        <button id = 'button_mesure2' type="button">validation</button>
+    <button id = 'button_mesure' type="button" onclick="window.location.href='/osillo'" >mesur</button>
+        <!------ difine type de circuite  ------->
+        <script>
+        var  typ_cr == {{all_post.type_shm}};
+        </script>
+
+        <button id = 'button_mesure2' type="button"  onclick="he()" >validation</button>
+        <!--- validation if treu active button else disabled -->
+        <script>document.getElementById("button_mesure").disabled = true;
+</script>
+        <script src="{% static 'pi_setting.js' %}" ></script>
+
+        <script>
+        // cett function call fonction setting et paseer argement
+            function he(){
+             var type_cr = document.getElementById("type_cr").textContent; // difine type circuite
+             if (type_cr === 'RC') {
+                var R = document.getElementById("resistance").textContent;
+                var C = document.getElementById("capa").textContent;
+                alert("R = " + R +  '\nC=' + C);
+
+                //RC()
+             }
+            }
+
+        </script>
+
+
 
 
     </div>
+        <!--- appel file  pi_setting et passe le valeur --->
+
+
 
 
     <!-- End Right Column -->

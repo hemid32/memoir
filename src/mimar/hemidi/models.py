@@ -3,10 +3,10 @@ from django.contrib.auth.models import User
 # Create your models here.
 #https://stackoverflow.com/questions/31130706/dropdown-in-django-model /// dropdown django
 COLOR_CHOICES = (
-    ('green','GREEN'),
-    ('blue', 'BLUE'),
-    ('red','RED'),
-    ('orange','ORANGE'),
+    ('RC','RC'),
+    ('R', 'R'),
+    ('RC','RC'),
+    ('R2','C3'),
     ('black','BLACK'),
 )
 class info_tp(models.Model):
