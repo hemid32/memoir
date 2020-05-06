@@ -43,10 +43,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
 
 
-          <br>
 
-
-          <br>
         </div>
       </div><br>
 
@@ -289,16 +286,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   }, 1000);
 
   </script>
-    <button id = 'button_mesure' type="button" onclick="window.location.href='/osillo'" >mesur</button>
+    <button id = 'button_mesure' type="button" onclick="window.location.href='/osillo'" disabled ='true' >mesur</button>
         <!------ difine type de circuite  ------->
-        <script>
-        var  typ_cr == {{all_post.type_shm}};
-        </script>
+
 
         <button id = 'button_mesure2' type="button"  onclick="he()" >validation</button>
         <!--- validation if treu active button else disabled -->
-        <script>document.getElementById("button_mesure").disabled = true;
-</script>
+
         <script src="{% static 'pi_setting.js' %}" ></script>
 
         <script>
@@ -308,7 +302,16 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
              if (type_cr === 'RC') {
                 var R = document.getElementById("resistance").textContent;
                 var C = document.getElementById("capa").textContent;
-                alert("R = " + R +  '\nC=' + C);
+
+                var r = confirm("confirm valeur :\n" + 'R =:' + R + '\nC =' + C);
+
+                if (r == true) {
+                   RC_val(R,C)
+
+                   document.getElementById("button_mesure").disabled = false;
+                } else {
+                  return false;
+                }
 
                 //RC()
              }

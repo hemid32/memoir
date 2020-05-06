@@ -4,8 +4,9 @@
     <list default="true" id="ad6b4081-00f8-4819-884d-d3d110136b63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mimar/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/mimar/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mimar/hemidi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mimar/hemidi/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mimar/hemidi/templates/setting.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mimar/hemidi/templates/un_p.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/mimar/hemidi/templates/un_p.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mimar/static/pi_setting.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mimar/static/pi_setting.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/mimar/hemidi/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -182,10 +183,10 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl" timestamp="1588175114778">
+    <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl" timestamp="1588545043731">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl/0.31.1366.737@0.31.1366.737" timestamp="1588175114778" />
+    <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl/0.31.1366.737@0.31.1366.737" timestamp="1588545043731" />
     <state width="1343" height="135" key="GridCell.Tab.0.bottom" timestamp="1585438363352">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
@@ -202,10 +203,10 @@
       <screen x="0" y="31" width="1366" height="737" />
     </state>
     <state width="1343" height="135" key="GridCell.Tab.0.right/0.31.1366.737@0.31.1366.737" timestamp="1585438363341" />
-    <state x="415" y="155" key="com.intellij.ide.util.TipDialog" timestamp="1588175055255">
+    <state x="415" y="155" key="com.intellij.ide.util.TipDialog" timestamp="1588545026682">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state x="415" y="155" key="com.intellij.ide.util.TipDialog/0.31.1366.737@0.31.1366.737" timestamp="1588175055255" />
+    <state x="415" y="155" key="com.intellij.ide.util.TipDialog/0.31.1366.737@0.31.1366.737" timestamp="1588545026682" />
     <state x="0" y="31" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585425079574">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
